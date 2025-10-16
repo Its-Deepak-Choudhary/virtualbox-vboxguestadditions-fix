@@ -1,5 +1,13 @@
+To center the image in your **README.md** file on GitHub, you can use HTML-style tags within Markdown. Unfortunately, Markdown itself doesn't support centering images directly, but you can use an HTML `<img>` tag to achieve this.
+
+Here’s how you can modify your content to center the image:
+
+````markdown
 # Fix for "VBoxGuestAdditions During Certificate Downloading" Error in VirtualBox
-![👉](https://github.com/Its-Deepak-Choudhary/virtualbox-vboxguestadditions-fix/blob/master/Error.png)
+
+<p align="center">
+  <img src="https://github.com/Its-Deepak-Choudhary/virtualbox-vboxguestadditions-fix/blob/master/Error.png" alt="👉">
+</p>
 
 If you're facing the **"VBoxGuestAdditions During certificate downloading: Unknown reason"** error while using VirtualBox, this guide provides a quick and easy fix. The issue is usually caused by **kvm (Kernel-based Virtual Machine)** modules conflicting with VirtualBox.
 
@@ -19,7 +27,7 @@ Run the following command:
 
 ```bash
 sudo su
-```
+````
 
 You'll be prompted for your password. Enter your password to gain root access.
 
@@ -103,3 +111,13 @@ After unloading the kvm modules, try starting your VirtualBox VM again, and the 
 Feel free to open an issue if you have any questions or face further problems!
 
 ---
+
+```
+
+### How it Works:
+- The `<p align="center">` tag is an HTML tag that centers its content. 
+- The `<img>` tag is used to insert the image.
+- This combination will ensure the image is centered in the README when viewed on GitHub.
+
+Let me know if you need any more adjustments! 😊
+```
