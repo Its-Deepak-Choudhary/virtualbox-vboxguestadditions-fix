@@ -1,5 +1,5 @@
 # Fix for "VBoxGuestAdditions During Certificate Downloading" Error in VirtualBox
-
+[!](https://github.com/Its-Deepak-Choudhary/virtualbox-vboxguestadditions-fix/blob/master/Error.png)
 
 If you're facing the **"VBoxGuestAdditions During certificate downloading: Unknown reason"** error while using VirtualBox, this guide provides a quick and easy fix. The issue is usually caused by **kvm (Kernel-based Virtual Machine)** modules conflicting with VirtualBox.
 
